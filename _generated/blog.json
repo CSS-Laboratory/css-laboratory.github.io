@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Test",
+    "date": "2026-01-12T00:00:00.000Z",
+    "description": "Brief description",
+    "image": "images/blog/image.png",
+    "url": "https://external-link.com",
+    "tags": [
+      "Tag1",
+      "Tag2"
+    ],
+    "content": "Optional body content in Markdown.",
+    "_sourceFile": "blog/test.md"
+  },
+  {
+    "title": "The Partisanship Compass: Using AI and a \"\"Biased Surfer\"\" to Chart Japan's Media Landscape",
+    "date": "2025-07-06T00:00:00.000Z",
+    "description": "An in-depth look at how we used a 'Biased Surfer' AI model to chart the political landscape of Japan's news ecosystem.",
+    "image": "images/blog/mediamap.png",
+    "url": "https://www.patreon.com/posts/partisanship-ai-133450983",
+    "tags": [
+      "Media Analysis",
+      "Japan",
+      "News",
+      "Partisanship",
+      "Polarization"
+    ],
+    "_sourceFile": "blog/2025-07-06-the-partisanship-compass-using-ai-and-a-biased-sur.md"
+  }
+]

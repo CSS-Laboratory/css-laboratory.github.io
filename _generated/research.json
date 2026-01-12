@@ -1,0 +1,119 @@
+[
+  {
+    "title": "Understanding Social Dynamics & Information Flow in the Digital Age",
+    "icon": "fas fa-comment-dots",
+    "description": "How do online platforms shape public discourse on critical issues like climate change, pandemics, and geopolitical events? We analyze massive datasets from Yahoo! News, Wikipedia, and YouTube to understand information flow, conspiracy theories, and polarization, using cutting-edge AI to provide actionable insights.",
+    "anchor": "social-dynamics",
+    "team_members": [
+      "Kunhao Yang",
+      "Mengyuan Fu"
+    ],
+    "tags": [
+      "Social Network Analysis",
+      "Information Diffusion",
+      "Online Discourse",
+      "Misinformation",
+      "Conspiracy Theories",
+      "Polarization",
+      "Yahoo! News",
+      "Wikipedia",
+      "YouTube",
+      "Large-Scale Data Analysis",
+      "Representation Learning",
+      "Causal Inference",
+      "NLP",
+      "Societal Impact"
+    ],
+    "image": "images/research/1.png",
+    "read_more_link": "https://scholar.google.co.jp/citations?user=kkCzRbQAAAAJ",
+    "order": 1,
+    "content": "<p>This research delves into the complex interplay of information and social behavior within vast digital ecosystems. We analyze <strong>massive datasets</strong> from platforms like <strong>Yahoo! News Japan</strong> (millions of news items, hundreds of millions of comments), <strong>Wikipedia</strong> (millions of revisions across multiple languages), and <strong>YouTube</strong> (spanning 10 nations with millions of videos and tens of millions of comments). Our investigations focus on critical societal issues, including:</p><ul><li>The <strong>dynamics of online discourse</strong> surrounding pivotal events like climate change, the COVID-19 pandemic, and other major disasters.</li><li>The mechanisms behind the <strong>emergence and spread of conspiracy theories</strong> and misinformation.</li><li>The societal impacts and online manifestations of <strong>geopolitical conflicts, political polarization, and disruptive technological innovations.</strong></li></ul><p>To understand how these online narratives unfold and exert influence, we employ sophisticated <strong>representation learning techniques, causal inference methodologies, and advanced machine learning models.</strong> A key goal is to translate our findings into <strong>actionable insights for stakeholders and policymakers</strong>, potentially informing interventions and strategies for a healthier information environment. We are looking for students and collaborators interested in large-scale data analysis, NLP, and understanding the societal impact of online platforms.</p>",
+    "_sourceFile": "research/01-understanding-social-dynamics-information-flow-in-.md"
+  },
+  {
+    "title": "Modeling the Evolution of Popular Culture",
+    "icon": "fas fa-project-diagram",
+    "description": "How do manga, anime, music, and even urban legends evolve? We analyze vast datasets of popular and niche cultural products, using sociophysics and network science to uncover the mechanisms of cultural change and the dynamics of human creativity.",
+    "anchor": "culture-evolution",
+    "team_members": [
+      "Kunhao Yang"
+    ],
+    "tags": [
+      "Cultural Evolution",
+      "Sociophysics",
+      "Network Science",
+      "Popular Culture",
+      "Manga",
+      "Anime",
+      "Vocaloid",
+      "SCP Foundation",
+      "Creativity",
+      "Cultural Dynamics",
+      "Trend Analysis",
+      "Data Mining",
+      "Quantitative Culture Analysis."
+    ],
+    "image": "images/research/2.png",
+    "read_more_link": "https://scholar.google.co.jp/citations?user=kkCzRbQAAAAJ",
+    "order": 2,
+    "content": "<p>What drives the evolution of cultural tastes, and how do creative trends emerge and fade? This research explores the underlying mechanisms of cultural change by analyzing <strong>extensive metadata from diverse cultural domains</strong>. This includes hundreds of thousands of records from <strong>mainstream manga, anime, fiction (novels, SCP Foundation entries, urban legends), and Vocaloid music, alongside millions of metadata entries from pornographic comics.</strong></p><p>Our primary aim is to understand <strong>how cultural products evolve and to uncover the fundamental principles of cultural dynamics.</strong> We approach this by:</p><ul><li>Employing <strong>sociophysics models and network science approaches</strong> to map and analyze the relationships and influences within cultural ecosystems.</li><li>Using popular culture as a unique lens to examine the <strong>dynamic interplay between human creativity and its broader cultural context.</strong></li></ul><p>This research offers exciting opportunities for those interested in quantitative analysis of culture, network modeling, and exploring the deep structures that shape our collective creative output.</p>",
+    "_sourceFile": "research/02-modeling-the-evolution-of-popular-culture.md"
+  },
+  {
+    "title": "Harnessing Large Language Models for Social Insights",
+    "icon": "fas fa-robot",
+    "description": "Can AI accelerate social research and reveal insights into its own \"mind\"? We leverage Large Language Models for innovative qualitative analysis (like surrogate labeling and silicon sampling) and investigate the cognitive mechanisms and values embedded within LLMs, bridging academic discovery with industry application.",
+    "anchor": "llm-application",
+    "team_members": [
+      "Kunhao Yang",
+      "Mengyuan Fu"
+    ],
+    "tags": [
+      "Large Language Models",
+      "AI in Social Science",
+      "Computational Qualitative Methods",
+      "Surrogate Labeling",
+      "Silicon Sampling",
+      "AI Cognition",
+      "AI Ethics",
+      "Human-AI Interaction",
+      "NLP",
+      "Industry Collaboration",
+      "Psychological Experiments with AI."
+    ],
+    "image": "images/research/3.png",
+    "read_more_link": "https://scholar.google.co.jp/citations?user=kkCzRbQAAAAJ",
+    "order": 3,
+    "content": "<p>Large Language Models (LLMs) offer unprecedented capabilities for social science research. Our work in this area focuses on two key thrusts:</p><ul><li><strong>Innovative Methodologies for Qualitative Analysis:</strong> We explore how LLMs can revolutionize traditionally time-consuming and labor-intensive qualitative research by developing techniques for <strong>surrogate labeling, conducting simulated psychological experiments, and enabling 'silicon sampling' (using LLMs as sophisticated proxies for human interviewees).</strong> The goal is to accelerate research cycles and broaden the scope of qualitative inquiry.</li><li><strong>Understanding LLM Cognition and Values:</strong> Beyond application, we delve into the <strong>fundamental cognitive mechanisms and embedded value systems of LLMs themselves.</strong> A critical part of this research is to identify and analyze the <strong>commonalities and crucial differences between human cognitive frameworks and the underlying 'cognitive' features of these powerful AI models.</strong></li></ul><p>We are committed to <strong>working closely with industry stakeholders</strong> to ensure our research generates not only significant academic contributions but also <strong>practical insights that can empower new businesses and applications.</strong> We welcome students and collaborators keen on exploring the frontiers of AI in social science, AI ethics, and human-AI interaction.</p>",
+    "_sourceFile": "research/03-harnessing-large-language-models-for-social-insigh.md"
+  },
+  {
+    "title": "Advancing Research with Machine Learning & Data Science",
+    "icon": "fas fa-brain",
+    "description": "We build the tools and data for next-generation social science. This involves developing novel machine learning models (representation learning, probabilistic models) and social simulation methods, alongside curating large-scale datasets to empower research in cognitive science, media studies, education, and beyond.",
+    "anchor": "other-research",
+    "team_members": [
+      "Various faculty and students"
+    ],
+    "tags": [
+      "Machine Learning",
+      "Data Science",
+      "Representation Learning",
+      "Probabilistic Models",
+      "Bayesian Methods",
+      "Social Simulation",
+      "Cognitive Science",
+      "Science Communication",
+      "Media Studies",
+      "Education",
+      "Large-Scale Datasets",
+      "Methodological Innovation",
+      "Computational Methods."
+    ],
+    "image": "images/research/4.png",
+    "read_more_link": "https://scholar.google.co.jp/citations?user=kkCzRbQAAAAJ",
+    "order": 4,
+    "content": "<p>The power of modern machine learning and data science opens new avenues for understanding the human mind and society. This research area is dedicated to:</p><ul><li><strong>Developing Novel Computational Methods:</strong> We create and refine <strong>innovative representation learning models, sophisticated probabilistic models (including Bayesian approaches), and advanced social simulation techniques.</strong> These tools are designed to support and advance research across a wide spectrum of disciplines, including <strong>cognitive science, science communication, media studies, education, and other crucial social science fields.</strong></li><li><strong>Building and Maintaining Large-Scale Datasets:</strong> Recognizing that empirical research thrives on robust data, we are also committed to <strong>developing, curating, and maintaining large-scale datasets.</strong> These resources serve as critical infrastructure to empower a wide range of empirical studies within computational social science, both within our lab and for the broader research community.</li></ul><p>This foundational work is crucial for pushing the boundaries of what's knowable in social and cognitive sciences, and we seek collaborators and students eager to contribute to methodological innovation and data infrastructure development.</p>",
+    "_sourceFile": "research/04-advancing-research-with-machine-learning-data-scie.md"
+  }
+]

@@ -1,0 +1,192 @@
+{
+  "tool": [
+    {
+      "name": "Wordfish in Python",
+      "type": "tool",
+      "description": "Wordfish implemented in Python",
+      "link": "https://github.com/CSS-Laboratory/Wordfish/tree/main",
+      "image": "images/resources/wordfish.png",
+      "details": [
+        {
+          "key": "Framework",
+          "value": "PyTorch"
+        },
+        {
+          "key": "Source",
+          "value": "Slapin, J. B., & Proksch, S. O. (2008). A scaling model for estimating time‐series party positions from texts. American Journal of Political Science, 52(3), 705-722."
+        },
+        {
+          "key": "Implemented at",
+          "value": "2024.09.23"
+        }
+      ],
+      "_sourceFile": "resources/tools/wordfish-in-python.md"
+    },
+    {
+      "name": "Media  Map",
+      "type": "tool",
+      "description": "Interactive Plot of Media Partisanship",
+      "link": "resources_agencymap.html",
+      "image": "images/resources/mediamap.png",
+      "details": [
+        {
+          "key": "Framework",
+          "value": "scipy"
+        },
+        {
+          "key": "Source",
+          "value": "https://www.patreon.com/posts/partisanship-how-133450983"
+        },
+        {
+          "key": "Implemented at",
+          "value": "2025.07.05"
+        }
+      ],
+      "_sourceFile": "resources/tools/media-map.md"
+    },
+    {
+      "name": "Burst Detection in Python",
+      "type": "tool",
+      "description": "Kleinberg’s burst detection algorithm  in Python",
+      "link": "https://github.com/CSS-Laboratory/BurstDetection/tree/main",
+      "image": "images/resources/burstdetection.png",
+      "details": [
+        {
+          "key": "Framework",
+          "value": "PyMC"
+        },
+        {
+          "key": "Source",
+          "value": "Kleinberg, J. (2002, July). Bursty and hierarchical structure in streams. In Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 91-101)."
+        },
+        {
+          "key": "Implemented at",
+          "value": "2024.10.02"
+        }
+      ],
+      "_sourceFile": "resources/tools/burst-detection-in-python.md"
+    }
+  ],
+  "dataset": [
+    {
+      "name": "Yahoo! News Japan",
+      "type": "dataset",
+      "description": "Datasets collected from Yahoo! News Japan",
+      "link": "https://forms.gle/5DekonbYGViGoT2d8",
+      "image": "images/resources/yahoo.png",
+      "details": [
+        {
+          "key": "#News",
+          "value": "4183145 (up to June 24th 2025)"
+        },
+        {
+          "key": "#Comments",
+          "value": "92772167 (up to June 24th 2025)"
+        },
+        {
+          "key": "#Expert Notes",
+          "value": "25317 (up to June 24th 2025)"
+        },
+        {
+          "key": "From",
+          "value": "2024.03.01"
+        },
+        {
+          "key": "Status",
+          "value": "Updating Daily"
+        }
+      ],
+      "_sourceFile": "resources/datasets/yahoo-news-japan.md"
+    },
+    {
+      "name": "Trending Videos on YouTube",
+      "type": "dataset",
+      "description": "Trending videos and the corresponding comments collected from YouTube API",
+      "link": "https://forms.gle/5DekonbYGViGoT2d8",
+      "image": "images/resources/youtube.png",
+      "details": [
+        {
+          "key": "#Video",
+          "value": "770060 (up to June 24th 2025)"
+        },
+        {
+          "key": "From",
+          "value": "2025.02.07"
+        },
+        {
+          "key": "#Countries(Regions)",
+          "value": 11
+        },
+        {
+          "key": "Status",
+          "value": "Updating Daily"
+        }
+      ],
+      "_sourceFile": "resources/datasets/trending-videos-on-youtube.md"
+    },
+    {
+      "name": "Climate Change Related Videos on YouTube",
+      "type": "dataset",
+      "description": "Climate Change related videos and the corresponding comments collected from YouTube API",
+      "link": "https://forms.gle/5DekonbYGViGoT2d8",
+      "image": "images/resources/youtube.png",
+      "details": [
+        {
+          "key": "#Video",
+          "value": "81370 (up to June 24th 2025)"
+        },
+        {
+          "key": "From",
+          "value": "2024.11.17"
+        },
+        {
+          "key": "Status",
+          "value": "Updating Daily"
+        }
+      ],
+      "_sourceFile": "resources/datasets/climate-change-related-videos-on-youtube.md"
+    },
+    {
+      "name": "BlueSky Dataset",
+      "type": "dataset",
+      "description": "BlueSky Datasets",
+      "link": "https://forms.gle/5DekonbYGViGoT2d8",
+      "image": "images/resources/bluesky.png",
+      "details": [
+        {
+          "key": "#User Profile",
+          "value": "4432730 (up to June 24th 2025)"
+        },
+        {
+          "key": "#Follow",
+          "value": "592279136 (up to June 24th 2025)"
+        },
+        {
+          "key": "#Like",
+          "value": "3929828540 (up to June 24th 2025)"
+        },
+        {
+          "key": "#Post",
+          "value": "243087346 (up to June 24th 2025)"
+        },
+        {
+          "key": "#Repost",
+          "value": "506487178 (up to June 24th 2025)"
+        },
+        {
+          "key": "#Block",
+          "value": "22018657 (up to June 24th 2025)"
+        },
+        {
+          "key": "From",
+          "value": 2021
+        },
+        {
+          "key": "Status",
+          "value": "Updating Yearly"
+        }
+      ],
+      "_sourceFile": "resources/datasets/bluesky-dataset.md"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+---
+title: Innovating at the Intersection of Social Science and Data
+order: 1
+---
+
+Welcome to Shibaura Institute of Technology's Computational Social Science (CSS) Lab!  Our multidisciplinary research team is committed to understanding the complex nature of social dynamics and human behavior.  Our main goal is to create an effective synergy between state-of-the-art computational methods and well-established social science theories.  We explore intricate social phenomena to find significant insights by utilizing cutting-edge data science techniques, such as machine learning, Large Language Models (LLMs), complex network analysis, and sophisticated social simulations.
+
+The ambition to understand society through rigorous, data-informed methods has been a cornerstone of social science since its inception. Today, fueled by unprecedented access to vast digital datasets and powerful analytical tools, our field stands at an exhilarating frontier. At the CSS Lab, we embrace this opportunity, recognizing that true innovation emerges from the thoughtful integration of diverse perspectives. We are committed to fostering an interdisciplinary and experimental environment where social scientists, data scientists, engineers, and thinkers from all backgrounds can collaborate, challenge conventions, and co-create knowledge.
+
+Our research isn't confined to academic journals; we are passionate about translating our discoveries into tangible applications that address pressing real-world challenges. We explore critical areas such as the formation of collective opinions on platforms like Yahoo! News and Wikipedia, the evolution of popular culture through analysis of media like manga and YouTube trends, the ethical and effective application of Large Language Models to accelerate social inquiry, and the development of foundational machine learning techniques and large-scale datasets to empower the wider research community.
+
+Whether you are a prospective student eager to develop advanced research skills, a potential collaborator with a shared vision, or an industry partner seeking innovative solutions, we invite you to connect with us. Explore our research, meet our team, and discover how you can be part of our journey to a deeper understanding of the social world.

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const masterListPath = 'data/blog/blogInfo.csv';
+    const dataPath = '_generated/blog.json';
     const postsContainer = document.getElementById('blog-posts-container');
 
     if (!postsContainer) {
@@ -7,41 +7,13 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
 
-    /**
-     * A robust CSV parser that handles commas inside quoted fields.
-     */
-    function parseCSV(text) {
-        const lines = text.trim().split('\n');
-        const header = lines[0].split(',').map(h => h.trim());
-        const rows = [];
-
-        for (let i = 1; i < lines.length; i++) {
-            if (lines[i].trim() === '') continue;
-            const row = {};
-            // This regex handles commas inside of double-quoted fields.
-            const values = lines[i].match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g) || [];
-            for (let j = 0; j < header.length; j++) {
-                if (values[j]) {
-                    let value = values[j].trim();
-                    if (value.startsWith('"') && value.endsWith('"')) {
-                        value = value.substring(1, value.length - 1);
-                    }
-                    row[header[j]] = value;
-                }
-            }
-            rows.push(row);
-        }
-        return rows;
-    }
-
     async function fetchBlogPosts() {
         try {
-            const response = await fetch(masterListPath);
+            const response = await fetch(dataPath);
             if (!response.ok) {
-                throw new Error(`Failed to load blog info: ${response.status}`);
+                throw new Error(`Failed to load blog data: ${response.status}`);
             }
-            const text = await response.text();
-            return parseCSV(text);
+            return response.json();
         } catch (error) {
             console.error('Error fetching blog posts:', error);
             postsContainer.innerHTML = '<p>Could not load blog posts. Please try again later.</p>';
@@ -53,13 +25,23 @@ document.addEventListener('DOMContentLoaded', function() {
         const card = document.createElement('article');
         card.className = 'blog-card';
 
-        const tags = post.tags ? post.tags.split(';').map(tag => `<span class="tag">${tag.trim()}</span>`).join('') : '';
+        // Tags are already an array from JSON
+        const tags = post.tags && Array.isArray(post.tags)
+            ? post.tags.map(tag => `<span class="tag">${tag}</span>`).join('')
+            : '';
+
+        // Format date for display
+        const displayDate = post.date ? new Date(post.date).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        }) : '';
 
         card.innerHTML = `
             <a href="${post.url}" target="_blank" rel="noopener noreferrer" class="card-link">
                 <img src="${post.image}" alt="${post.title}" class="card-image">
                 <div class="card-content">
-                    <p class="card-date">${post.date}</p>
+                    <p class="card-date">${displayDate}</p>
                     <h3 class="card-title">${post.title}</h3>
                     <p class="card-description">${post.description}</p>
                 </div>
@@ -74,13 +56,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     async function loadBlog() {
         const posts = await fetchBlogPosts();
-        if (posts) {
-            // Sort posts by date, newest first
-            posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+        if (posts && posts.length > 0) {
+            // Posts are already sorted by date (desc) from build script
             posts.forEach(post => {
                 const card = createPostCard(post);
                 postsContainer.appendChild(card);
             });
+        } else if (posts && posts.length === 0) {
+            postsContainer.innerHTML = '<p>No blog posts available yet.</p>';
         }
     }
 

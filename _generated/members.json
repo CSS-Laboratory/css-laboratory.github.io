@@ -1,0 +1,30 @@
+{
+  "faculty": [
+    {
+      "name": "Kunhao Yang",
+      "role": "Assistant Professor",
+      "bio": "<p>Dr. Kunhao Yang is an Assistant Professor in the College of Engineering at Shibaura Institute of Technology and the founding Director of the Computational Social Science (CSS) Laboratory. With a rich academic background spanning computer science, sociology, cognitive science, and data science from institutions like Fudan University, Tsinghua University, and The University of Tokyo, Dr. Yang brings a deeply interdisciplinary approach to his research.</p><p>His work focuses on unraveling the complex dynamics of human behavior and social phenomena through the lens of computational methods. Key research areas include understanding collective opinion formation in online spaces (analyzing data from platforms like Yahoo! News Japan and Wikipedia), modeling the evolution of popular culture, and pioneering the application of Large Language Models (LLMs) and advanced machine learning techniques in social science inquiry. Dr. Yang is passionate about bridging theory and practice, aiming to translate research findings into actionable insights and fostering a collaborative environment for students and researchers to explore the frontiers of data-driven social science. He also designs and teaches courses that integrate these cutting-edge fields.</p>",
+      "image": "members/Yang.jpg",
+      "email": "khyang@shibaura-it.ac.jp",
+      "website": "https://www.researchgate.net/profile/Kunhao-Yang",
+      "github": "https://github.com/CSS-Laboratory",
+      "google_scholar": "https://scholar.google.com/citations?user=kkCzRbQAAAAJ&hl=en",
+      "order": 1,
+      "category": "faculty",
+      "_sourceFile": "members/faculty/kunhao-yang.md"
+    }
+  ],
+  "others": [
+    {
+      "name": "Mimiku Ruby",
+      "role": "Academic Support Cat",
+      "bio": "Meet Mimiku Ruby, the heart and soul of the CSS Lab's well-being initiatives! A majestic Siberian Forest cat (born December 10th, 2024*), Mimiku serves as our esteemed Chief Morale Officer and Academic Support Cat.<br><br> \nHer key responsibilities include, but are not limited to: \n<ul> \n    <li>Advanced nap-based research and purr-assisted stress reduction.</li> \n    <li>Ensuring all keyboards are adequately warmed for optimal typing ergonomics.</li> \n    <li>Leading high-energy laser-chasing sprints to boost lab morale.</li> \n    <li>Meticulous gravity testing of unsecured desk objects.</li> \n    <li>Providing timely reminders for snack breaks and hydration.</li> \n</ul> \nWhile she champions most aspects of lab life, Mimiku maintains a firm stance against mandatory dental hygiene (teeth brushing is strictly off-limits!). Her contributions to a positive, engaging, and occasionally fur-covered productive resaerch environment are simply invaluable. Mimiku is generally available for gentle head scratches and offering her silent, wise counsel during her extensive office hours (which are most hours).",
+      "image": "members/Mimiku.jpg",
+      "email": "mimikubabana@gmail.com",
+      "twitter": "https://www.instagram.com/mimiku1210/",
+      "order": 1,
+      "category": "others",
+      "_sourceFile": "members/others/mimiku-ruby.md"
+    }
+  ]
+}
